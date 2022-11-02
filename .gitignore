@@ -15,3 +15,5 @@
 
 #venv directory
 .venv/
+
+.get-pip.py
