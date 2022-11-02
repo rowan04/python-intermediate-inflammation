@@ -1,0 +1,15 @@
+name: Kilimanjaro
+height: 
+  value: 5892
+  unit: meters
+  measured:
+    year: 2008
+    by: Kilimanjaro 2008 Precise Height Measurement Experiment
+first_scaled_by: 
+  - name: Hans Meyer
+    date_of_birth: 22-03-1858
+    nationality: German
+  - name: Ludwig Purstcheller
+    date_of_birth: 22-03-1858
+    nationality: Austrian
+first_scaled_by_names_array: [Hans Meyer, Ludwig Purstcheller]
