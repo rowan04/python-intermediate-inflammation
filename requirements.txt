@@ -55,10 +55,7 @@ conda-token @ file:///tmp/build/80754af9/conda-token_1620076980546/work
 conda-verify==3.4.2
 constantly==15.1.0
 cookiecutter @ file:///opt/conda/conda-bld/cookiecutter_1649151442564/work
-<<<<<<< HEAD
-=======
 coverage==6.5.0
->>>>>>> test
 cryptography @ file:///C:/ci/cryptography_1633520531101/work
 cssselect==1.1.0
 cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
@@ -227,10 +224,7 @@ pyreadline==2.1
 pyrsistent @ file:///C:/ci/pyrsistent_1636093225342/work
 PySocks @ file:///C:/ci/pysocks_1605307512533/work
 pytest==7.1.1
-<<<<<<< HEAD
-=======
 pytest-cov==4.0.0
->>>>>>> test
 python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
 python-lsp-black @ file:///tmp/build/80754af9/python-lsp-black_1634232156041/work
 python-lsp-jsonrpc==1.0.0
