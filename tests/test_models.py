@@ -48,7 +48,7 @@ def test_daily_min(test, expected):
     "test, expected",
     [
         ([[0, 0], [0, 0], [0, 0]], [0, 0]),
-        ([[1, 2], [3, 4], [5, 6]], [1, 2]),
+        ([[1, 2], [1, 2], [1, 2]], [0, 0]),
     ]
 )
 def test_daily_stddev(test, expected):
