@@ -24,7 +24,7 @@ Inflam is a data management system written in Python that manages trial data use
 
 ## Main features
 
-Here are some key features of inflam:
+Here are some key features of Inflam:
 Provide basic statistical analysis
 Ability to work on trail data in CSV format
 
