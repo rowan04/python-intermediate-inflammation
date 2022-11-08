@@ -52,7 +52,7 @@ def test_daily_min(test, expected):
     ]
 )
 def test_daily_stddev(test, expected):
-    """Test that min function works for an array of zeros and integers."""
+    """Test that std function works for an array of zeros and integers."""
     from inflammation.models import daily_stddev
     npt.assert_array_equal(daily_stddev(test), expected)
 
