@@ -15,3 +15,23 @@ Several tests have been implemented already, some of which are currently failing
 These failing tests set out the requirements for the additional code to be implemented during the workshop.
 
 The tests should be run using `pytest`, which will be introduced during the workshop.
+
+
+# Inflam
+
+Inflam is a data management system written in Python that manages trial data used in clinnical inflammation studies.
+
+
+## Main features
+
+Here are some key features of inflam:
+Provide basic statistical analysis
+Ability to work on trail data in CSV format
+
+## Pre-requistes
+Inflam requires the following Python packages:
+
+- NumPy
+- Matplotlib
+- Pytest
+- Pytest -cov
