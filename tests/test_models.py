@@ -44,6 +44,18 @@ def test_daily_min(test, expected):
     from inflammation.models import daily_min
     npt.assert_array_equal(daily_min(test), expected)
 
+@pytest.mark.parametrize(
+    "test, expected",
+    [
+        ([[0, 0], [0, 0], [0, 0]], [0, 0]),
+        ([[1, 2], [3, 4], [5, 6]], [1, 2]),
+    ]
+)
+def test_daily_stddev(test, expected):
+    """Test that min function works for an array of zeros and integers."""
+    from inflammation.models import daily_stddev
+    npt.assert_array_equal(daily_stddev(test), expected)
+
 
 def test_daily_min_string():
     '''Test for TypeError when we pass a string'''
