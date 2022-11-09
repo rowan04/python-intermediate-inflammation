@@ -26,9 +26,15 @@ class Observation:
 
 class Person:
     def __init__(self, name: str):
+        """
+        Person class initialisation. read in name of type str.
+        """
         self.name = name
     
     def __str__(self):
+        """
+        str dunder func calls object name when object called
+        """
         return self.name
 
 # class Doctor(Person):
