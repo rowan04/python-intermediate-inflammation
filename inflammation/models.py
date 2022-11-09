@@ -32,7 +32,7 @@ class Person:
 
 #     @property
 #     def patient_names(self):
-#         return [p.name]
+#         return [p.name for p in self.patients]
 
 class Patient(Person):
     """A patient in an inflammation study"""
