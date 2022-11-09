@@ -12,10 +12,16 @@ import numpy as np
 
 class Observation:
     def __init__(self, day, value):
+        """
+        initialisation of object. Day & values loaded as attributes.
+        """
         self.day = day
         self.value = value
 
     def __str__(self):
+        """
+        Dunder function to read value when call object.
+        """
         return str(self.value)
 
 class Person:
