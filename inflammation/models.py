@@ -11,6 +11,7 @@ import numpy as np
 
 
 class Observation:
+    """An observation made in an inflammation study"
     
     
     def __init__(self, day, value):
@@ -29,6 +30,8 @@ class Observation:
 
     
 class Person:
+    "Stores values for a person, inherited by doctors and patients
+    in inflammation studies."""
     
     
     def __init__(self, name: str):
