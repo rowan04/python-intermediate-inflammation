@@ -21,7 +21,6 @@ The tests should be run using `pytest`, which will be introduced during the work
 
 Inflam is a data management system written in Python that manages trial data used in clinnical inflammation studies.
 
-
 ## Main features
 
 Here are some key features of Inflam:
@@ -35,3 +34,5 @@ Inflam requires the following Python packages:
 - Matplotlib
 - Pytest
 - Pytest -cov
+
+edit here for issue 5
