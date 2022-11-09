@@ -11,6 +11,8 @@ import numpy as np
 
 
 class Observation:
+    
+    
     def __init__(self, day, value):
         """
         initialisation of object. Day & values loaded as attributes.
@@ -18,18 +20,23 @@ class Observation:
         self.day = day
         self.value = value
 
+        
     def __str__(self):
         """
         Dunder function to read value when call object.
         """
         return str(self.value)
 
+    
 class Person:
+    
+    
     def __init__(self, name: str):
         """
         Person class initialisation. read in name of type str.
         """
         self.name = name
+    
     
     def __str__(self):
         """
@@ -37,22 +44,30 @@ class Person:
         """
         return self.name
 
+
 class Doctor(Person):
     """A doctor managing patients in an inflammation study"""
+    
+    
     def __init__(self, name):
         super().__init__(name)
         self.patients = []
 
+        
     @property
     def patient_names(self):
         return [p.name for p in self.patients]
 
+    
 class Patient(Person):
     """A patient in an inflammation study"""
+    
+    
     def __init__(self, name: str):
         super().__init__(name)
         self.observations = []
 
+        
     @property
     def last_observation(self):
         return self.observations[-1]
@@ -69,6 +84,7 @@ class Patient(Person):
         self.observations.append(new_observation)
         return new_observation
 
+    
 def load_csv(filename):
     """Load a Numpy array from a CSV
 
