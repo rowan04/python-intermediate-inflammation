@@ -37,14 +37,15 @@ class Person:
         """
         return self.name
 
-# class Doctor(Person):
-#     def __init__(self, name):
-#         super().__init__(name)
-#         self.patients = []
+class Doctor(Person):
+    """A doctor managing patients in an inflammation study"""
+    def __init__(self, name):
+        super().__init__(name)
+        self.patients = []
 
-#     @property
-#     def patient_names(self):
-#         return [p.name for p in self.patients]
+    @property
+    def patient_names(self):
+        return [p.name for p in self.patients]
 
 class Patient(Person):
     """A patient in an inflammation study"""
