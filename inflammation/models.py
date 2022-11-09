@@ -11,11 +11,11 @@ import numpy as np
 
 
 class Observation:
-    """An observation made in an inflammation study"
+    """An observation made in an inflammation study"""
     
     
     def __init__(self, day, value):
-        """
+        """ 
         initialisation of object. Day & values loaded as attributes.
         """
         self.day = day
@@ -30,7 +30,7 @@ class Observation:
 
     
 class Person:
-    "Stores values for a person, inherited by doctors and patients
+    """Stores values for a person, inherited by doctors and patients
     in inflammation studies."""
     
     
